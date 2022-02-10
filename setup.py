@@ -24,6 +24,6 @@ setuptools.setup(
     install_requires=[
           'matplotlib', 'freq_note_converter',
     ],
-    packages=setuptools.find_packages(where="src", exclude=['*_tests'],),
+    packages=setuptools.find_packages(where="src", exclude=['*_tests', '*_examples'],),
     python_requires=">=3.6",
 )

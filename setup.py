@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="spectrum_plot",
-    version="0.1.0",
+    version="0.2.0",
     author="Lior Israeli",
     author_email="israelilior@gmail.com",
     description="Interactive spectrum plot. Update FFT plot on every new sampled data",
